@@ -1,0 +1,59 @@
+
+.card {
+  background-color: #f7f7f9;
+  margin-bottom: 1em;
+  .card-header{
+    padding: 5px 19px;
+    border-bottom: none;
+    textarea{
+      font-weight: bold;
+    }
+  }
+
+  .card-block,.card-header,.card-footer{
+    padding: .50em;
+  }
+
+  .card-block{
+    .row{
+      &.troca{
+        margin-bottom: 10px;
+
+        textarea{
+          box-shadow: 3px 3px 6px -4px rgba(0, 0, 0, 0.57);
+        }
+      }
+
+    }
+  }
+
+  .card-footer{
+    border-top: none;
+    a{
+      font-size: 13px;
+      text-decoration: underline;
+      cursor: pointer;
+
+    }
+  }
+
+}
+.is-drag-true{
+  textarea{
+    background-color: #02cda6!important;
+  }
+
+}
+.troca{
+
+  .trash {
+    text-align: center;
+    padding-left: 0px;
+    display: none;
+    font-size: 18px;
+  }
+
+  &:hover .trash{
+    display: block;
+  }
+}
